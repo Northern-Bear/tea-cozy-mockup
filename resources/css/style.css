@@ -1,0 +1,130 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* ----- Navigation Header ----- */
+
+.nav-container {
+    display: inline-flex;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 10px;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    background-color: black;
+}
+
+.nav-container img {
+    height: 2rem;
+}
+
+nav ul {
+    display: inline-flex;
+    position: absolute;
+    right: 1.2rem;
+    top: 0;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: underline;
+    margin: 0 0.5rem;
+}
+
+a {
+    color: seashell;
+}
+
+/* ----- Main Content ----- */
+main {
+    position: relative;
+    top: 3rem;
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* ----- Mission -----*/
+#mission {
+    background-image: url(/resources/images/img-mission-background.webp);
+    height: 30rem;
+    width: 95%;
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#mission h2,
+#mission h4 {
+    margin: 0;
+    width: 100%;
+    padding: 0.5rem;
+    height: auto;
+    background-color: black;
+}
+/* ----- Featured Tea -----*/
+#featured-tea {
+    width: 85%;
+    height: auto;
+    padding-top: 3rem;
+}
+
+.featured-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.featured-item {
+    height: 11.36rem;
+    width: 13.6rem;
+}
+
+.featured-item img {
+    width: 100%;
+    height: auto;
+}
+
+.featured-item h4 {
+    margin: .3rem 0;
+}
+/* ----- Locations -----*/
+
+#location {
+    background-image: url("/resources/images/img-locations-background.webp");
+    width: 95%;
+    height: 22.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.location-item {
+    background-color: black;
+    height: auto;
+    width: 13.6rem;
+}
