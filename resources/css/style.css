@@ -63,7 +63,7 @@ main {
 }
 /* ----- Mission -----*/
 #mission {
-    background-image: url("./resources/images/img-mission-background.webp");
+    background-image: url("../images/img-mission-background.webp");
     height: 30rem;
     width: 95%;
 
@@ -109,7 +109,7 @@ main {
 /* ----- Locations -----*/
 
 #location {
-    background-image: url("./resources/images/img-locations-background.webp");
+    background-image: url("../images/img-locations-background.webp");
     width: 95%;
     height: 22.7rem;
     display: flex;
